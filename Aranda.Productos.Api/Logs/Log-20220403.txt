@@ -1,0 +1,20 @@
+2022-04-03T12:55:03.6917563-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-03T12:55:03.7070342-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-03T12:55:03.7087656-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-03T18:28:06.3384066-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-03T18:28:06.3434175-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-03T18:28:06.3448022-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-03T18:28:25.2937979-05:00 80000052-0001-fb00-b63f-84710c7967bb [ERR] An exception occurred while iterating over the results of a query for context type '"Aranda.Productos.Datos.Contextos.ProductosContexto"'."
+""System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int32()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()" (f5c7ac34)
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int32()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+2022-04-03T18:28:25.3557760-05:00 80000052-0001-fb00-b63f-84710c7967bb [ERR] Data is Null. This method or property cannot be called on Null values. (38ac4cd5)

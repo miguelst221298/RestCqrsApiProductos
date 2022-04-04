@@ -1,0 +1,15 @@
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\bin\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.deps.json
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\bin\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\bin\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.pdb
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\bin\Debug\netcoreapp3.1\Aranda.Productos.Datos.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\bin\Debug\netcoreapp3.1\Aranda.Productos.Dominio.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\bin\Debug\netcoreapp3.1\Aranda.Productos.Datos.pdb
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\bin\Debug\netcoreapp3.1\Aranda.Productos.Dominio.pdb
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\obj\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.csproj.AssemblyReference.cache
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\obj\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\obj\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.AssemblyInfoInputs.cache
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\obj\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.AssemblyInfo.cs
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\obj\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\obj\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.csproj.CopyComplete
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\obj\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\obj\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.pdb

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aranda.Productos.Datos\Aranda.Productos.Datos.csproj" />
+    <ProjectReference Include="..\Aranda.Productos.Dominio\Aranda.Productos.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

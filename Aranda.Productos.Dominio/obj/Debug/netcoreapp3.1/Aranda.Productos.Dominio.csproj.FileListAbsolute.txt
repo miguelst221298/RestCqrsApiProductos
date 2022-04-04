@@ -1,0 +1,10 @@
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Dominio\bin\Debug\netcoreapp3.1\Aranda.Productos.Dominio.deps.json
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Dominio\bin\Debug\netcoreapp3.1\Aranda.Productos.Dominio.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Dominio\bin\Debug\netcoreapp3.1\Aranda.Productos.Dominio.pdb
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Dominio\obj\Debug\netcoreapp3.1\Aranda.Productos.Dominio.csproj.AssemblyReference.cache
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Dominio\obj\Debug\netcoreapp3.1\Aranda.Productos.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Dominio\obj\Debug\netcoreapp3.1\Aranda.Productos.Dominio.AssemblyInfoInputs.cache
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Dominio\obj\Debug\netcoreapp3.1\Aranda.Productos.Dominio.AssemblyInfo.cs
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Dominio\obj\Debug\netcoreapp3.1\Aranda.Productos.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Dominio\obj\Debug\netcoreapp3.1\Aranda.Productos.Dominio.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Dominio\obj\Debug\netcoreapp3.1\Aranda.Productos.Dominio.pdb
