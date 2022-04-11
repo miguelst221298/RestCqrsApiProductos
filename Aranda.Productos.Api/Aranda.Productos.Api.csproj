@@ -15,9 +15,5 @@
     <ProjectReference Include="..\Aranda.Productos.Utilidades\Aranda.Productos.Utilidades.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
-
 
 </Project>
