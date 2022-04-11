@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 using System;
 using Aranda.Productos.Aplicacion.Definiciones.Comandos;
+using Aranda.Productos.Dominio.Dto;
 
 namespace Aranda.Productos.Api.Controllers
 {
@@ -26,12 +27,12 @@ namespace Aranda.Productos.Api.Controllers
         }
 
         [HttpGet]
-        [Route("ObtenerProductoPorId/{id}")]
-        public async Task<ActionResult<Producto>> ObtenerProductoPorId(int id)
+        [Route("{id}:int")]
+        public async Task<ActionResult<ProductoDto>> Get(int id)
         {
             try
             {
-                var resultado = await Task.Run(() => _productoConsultaServicioAplicacion.ObtenerProductoPorId(id));
+                var resultado = await Task.Run(() => _productoConsultaServicioAplicacion.ObtenerProductoDtoPorId(id));
                 if (resultado != null)
                     return Ok(resultado);
                 else
@@ -45,15 +46,15 @@ namespace Aranda.Productos.Api.Controllers
         }
 
         [HttpPost]
-        [Route("CrearProducto")]
-        public async Task<ActionResult<bool>> CrearProducto([FromBody] Producto producto)
+        public async Task<ActionResult<bool>> Post([FromForm] ProductoDto productoDto)
         {
             try
             {
-                if (!_categoriaConsultaServicioAplicacion.VerificarExistenciaPorId(producto.CodCategoria))
-                    return BadRequest($"No existe la categoria id: {producto.CodCategoria}");
+                if (!_categoriaConsultaServicioAplicacion.VerificarExistenciaPorId(productoDto.CodCategoria))
+                    return BadRequest($"No existe la categoria id: {productoDto.CodCategoria}");
+             
 
-                return Ok(await Task.Run(() => _productoComandoServicioAplicacion.CrearProducto(producto)));
+                return Ok(await Task.Run(() => _productoComandoServicioAplicacion.CrearProducto(productoDto)));
             }
             catch (Exception ex)
             {
@@ -63,23 +64,20 @@ namespace Aranda.Productos.Api.Controllers
         }
 
         [HttpPut]
-        [Route("ActualizarProducto/{id}")]
-        public async Task<ActionResult<bool>> ActualizarProducto(int id, [FromBody] Producto producto)
+        [Route("{id}:int")]
+        public async Task<ActionResult<bool>> Put(int id, [FromForm] ProductoDto productoEditar)
         {
             try
             {
-                if (id == producto.Id_Producto && id > 0)
-                {
-                    if (!_productoConsultaServicioAplicacion.VerificarExistenciaPorId(producto.Id_Producto))
-                        return NotFound($"No existe el producto con id: {producto.Id_Producto}");
+                    var producto = _productoConsultaServicioAplicacion.ObtenerProductoPorId(id);
+                    if (producto == null)
+                        return NotFound($"No existe el producto con id: {productoEditar.Id_Producto}");
 
-                    if (!_categoriaConsultaServicioAplicacion.VerificarExistenciaPorId(producto.CodCategoria))
-                        return BadRequest($"No existe la categoria id: {producto.CodCategoria}");
+                    if (!_categoriaConsultaServicioAplicacion.VerificarExistenciaPorId(productoEditar.CodCategoria))
+                        return BadRequest($"No existe la categoria id: {productoEditar.CodCategoria}");
 
-                    return Ok(await Task.Run(() => _productoComandoServicioAplicacion.ActualizarProducto(producto)));
-                }
-                else
-                    return BadRequest("El endpoint no coincide con el id del producto a actualizar");
+                    return Ok(await Task.Run(() => _productoComandoServicioAplicacion.ActualizarProducto(productoEditar, producto)));
+                
             }
             catch (Exception ex)
             {
@@ -89,8 +87,8 @@ namespace Aranda.Productos.Api.Controllers
         }
 
         [HttpDelete]
-        [Route("EliminarProducto/{id}")]
-        public async Task<ActionResult<bool>> EliminarProducto(int id)
+        [Route("{id}:int")]
+        public async Task<ActionResult<bool>> Delete(int id)
         {
             try
             {

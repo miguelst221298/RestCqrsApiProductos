@@ -75,3 +75,14 @@ C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug
 C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\obj\Debug\netcoreapp3.1\Aranda.Productos.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\System.IO.Hashing.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\System.Memory.Data.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api\bin\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.pdb

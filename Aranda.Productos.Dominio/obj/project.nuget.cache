@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "u4CKtgBsYf/zMNJKidQATfB51xNiGLTNAP41EzTfWDowEik3zx5dslICjjCPeGslnO4jmEwuPm9SLamS3JiKag==",
+  "dgSpecHash": "+RESbwdWUTSr0Lany2ltkWkv87ULwCXzG3784RWu6FhnCT2qfORLJzNJYvlr5ENm0MfduvSuh/Mbtja0Fq37qA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.23\\microsoft.aspnetcore.http.features.3.1.23.nupkg.sha512",
+    "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.23\\microsoft.extensions.primitives.3.1.23.nupkg.sha512",
+    "C:\\Users\\Miguel\\.nuget\\packages\\system.io.pipelines\\4.7.5\\system.io.pipelines.4.7.5.nupkg.sha512"
+  ],
   "logs": []
 }

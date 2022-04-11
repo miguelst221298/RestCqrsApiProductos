@@ -12,6 +12,11 @@
   <ItemGroup>
     <ProjectReference Include="..\Aranda.Productos.Aplicacion\Aranda.Productos.Aplicacion.csproj" />
     <ProjectReference Include="..\Aranda.Productos.Dominio\Aranda.Productos.Dominio.csproj" />
+    <ProjectReference Include="..\Aranda.Productos.Utilidades\Aranda.Productos.Utilidades.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 

@@ -1,0 +1,10 @@
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Utilidades\bin\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.deps.json
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Utilidades\bin\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Utilidades\bin\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.pdb
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Utilidades\obj\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.csproj.AssemblyReference.cache
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Utilidades\obj\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Utilidades\obj\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.AssemblyInfoInputs.cache
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Utilidades\obj\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.AssemblyInfo.cs
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Utilidades\obj\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Utilidades\obj\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Utilidades\obj\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.pdb

@@ -1,7 +1,9 @@
 ﻿using Aranda.Productos.Aplicacion.Definiciones.Consultas;
 using Aranda.Productos.Datos.Definiciones.Consultas;
+using Aranda.Productos.Dominio.Entidades;
 using Microsoft.Extensions.Logging;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Aranda.Productos.Aplicacion.Implementaciones.Consultas
@@ -15,11 +17,25 @@ namespace Aranda.Productos.Aplicacion.Implementaciones.Consultas
             _categoriaConsultaRepositorio = categoriaConsultaRepositorio;
             _logger = logger;
         }
+
+        public List<Categoria> ObtenerTodo()
+        {
+            try
+            {
+                return _categoriaConsultaRepositorio.ObtenerTodo().ToList();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return new List<Categoria>();
+            }
+        }
+
         public bool VerificarExistenciaPorId(int id)
         {
             try
             {
-                return _categoriaConsultaRepositorio.ObtenerPor(x => x.Id_Categoria == id).Count() > 0;
+                return _categoriaConsultaRepositorio.ObtenerPor(x => x.id_Categoria == id).Count() > 0;
             }
             catch (Exception ex)
             {
@@ -32,7 +48,7 @@ namespace Aranda.Productos.Aplicacion.Implementaciones.Consultas
         {
             try
             {
-                return _categoriaConsultaRepositorio.ObtenerPor(x => x.Nombre.ToUpper() == nombre.ToUpper()).Count() > 0;
+                return _categoriaConsultaRepositorio.ObtenerPor(x => x.nomCategoria.ToUpper() == nombre.ToUpper()).Count() > 0;
             }
             catch (Exception ex)
             {

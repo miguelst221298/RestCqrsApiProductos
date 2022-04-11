@@ -13,3 +13,5 @@ C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\ob
 C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\obj\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.csproj.CopyComplete
 C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\obj\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.dll
 C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\obj\Debug\netcoreapp3.1\Aranda.Productos.Aplicacion.pdb
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\bin\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.dll
+C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Aplicacion\bin\Debug\netcoreapp3.1\Aranda.Productos.Utilidades.pdb

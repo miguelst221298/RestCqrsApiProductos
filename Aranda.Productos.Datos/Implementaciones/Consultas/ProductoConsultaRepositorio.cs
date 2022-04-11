@@ -2,10 +2,12 @@
 using Aranda.Productos.Datos.Definiciones.Consultas;
 using Aranda.Productos.Dominio.Dto;
 using Aranda.Productos.Dominio.Entidades;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Aranda.Productos.Datos.Implementaciones.Consultas
 {
@@ -17,11 +19,11 @@ namespace Aranda.Productos.Datos.Implementaciones.Consultas
             _logger = logger;
         }
 
-        public ListadoProductosDto ObtenerListadoProductos(FiltrosDto filtros)
+        public async Task<ListadoProductosDto> ObtenerListadoProductos(FiltrosDto filtros, PaginacionDto paginacionDto)
         {
             var resultado = new ListadoProductosDto
             {
-                CantidadRegistros = 0,
+                TotalRegistros = 0,
                 Listado = new List<ProductoDto>()
             };
 
@@ -31,47 +33,46 @@ namespace Aranda.Productos.Datos.Implementaciones.Consultas
                 if (contexto != null)
                 {
                     var predicado = from producto in contexto.Producto
-                                    join categoria in contexto.Categoria on producto.Id_Producto equals categoria.Id_Categoria
+                                    join categoria in contexto.Categoria on producto.CodCategoria equals categoria.id_Categoria
                                     select new ProductoDto
                                     {
                                         Id_Producto = producto.Id_Producto,
-                                        Nombre = producto.Nombre,
-                                        CodCategoria = categoria.Id_Categoria,
-                                        NombreCategoria = categoria.Nombre,
-                                        Imagen = producto.Imagen,
-                                        Descripcion = producto.Descripcion
+                                        NomProducto = producto.NomProducto,
+                                        NomCategoria = categoria.nomCategoria,
+                                        CodCategoria=categoria.id_Categoria
                                     };
                     if (filtros.CodCategoria > 0)
                         predicado = predicado.Where(x => x.CodCategoria == filtros.CodCategoria);
 
-                    if (!string.IsNullOrEmpty(filtros.TextoBuscar))
+                    if (!string.IsNullOrEmpty(filtros.Nombre))
                         predicado = predicado.Where(x =>
-                        x.Nombre.ToUpper().Contains(filtros.TextoBuscar.ToUpper()) ||
-                        x.Descripcion.ToUpper().Contains(filtros.TextoBuscar.ToUpper()) ||
-                        x.NombreCategoria.ToUpper().Contains(filtros.TextoBuscar.ToUpper()));
+                        x.NomProducto.ToUpper().Contains(filtros.Nombre.ToUpper()));
 
+                    if (!string.IsNullOrEmpty(filtros.Descripcion))
+                        predicado = predicado.Where(x =>
+                        x.NomProducto.ToUpper().Contains(filtros.Descripcion.ToUpper()));
 
                     if (filtros.Orden.ToUpper().Contains("CATEGORIA"))
                     {
                         if (filtros.Orden.ToUpper().Contains("DESC"))
-                            predicado = predicado.OrderByDescending(x => x.NombreCategoria);
+                            predicado = predicado.OrderByDescending(x => x.NomCategoria);
                         else
                         {
-                            predicado = predicado.OrderBy(x => x.NombreCategoria);
+                            predicado = predicado.OrderBy(x => x.NomCategoria);
                         }
                     }
                     else
                     {
                         if (filtros.Orden.ToUpper().Contains("DESC"))
-                            predicado = predicado.OrderByDescending(x => x.Nombre);
+                            predicado = predicado.OrderByDescending(x => x.NomProducto);
                         else
                         {
-                            predicado = predicado.OrderBy(x => x.Nombre);
+                            predicado = predicado.OrderBy(x => x.NomProducto);
                         }
                     }
 
-                    resultado.CantidadRegistros = predicado.Count();
-                    resultado.Listado = predicado.Skip(filtros.RegistroActual).Take(filtros.CantidadRegistrosAConsultar).ToList();
+                    resultado.TotalRegistros = await predicado.CountAsync();
+                    resultado.Listado =  await predicado.Skip((paginacionDto.Pagina-1) * paginacionDto.CantidadRegistrosAConsultar).Take(paginacionDto.CantidadRegistrosAConsultar).ToListAsync();
                 }
             }
             catch (Exception ex)
@@ -79,6 +80,33 @@ namespace Aranda.Productos.Datos.Implementaciones.Consultas
                 _logger.LogError(ex.Message);
             }
             return resultado;
+        }
+
+        public ProductoDto ObtenerProductoDtoPorId(int id)
+        {
+            var contexto = _Contexto as IProductosContexto;
+            if (contexto != null)
+            {
+
+                return (from producto in contexto.Producto
+                       join categoria in contexto.Categoria
+                       on producto.CodCategoria equals categoria.id_Categoria
+                       where producto.Id_Producto==id
+                       select new ProductoDto
+                       {
+                           Id_Producto = producto.Id_Producto,
+                           CodCategoria = categoria.id_Categoria,
+                           NomCategoria = categoria.nomCategoria,
+                           NomProducto = producto.NomProducto,
+                           Descripcion = producto.Descripcion,
+                           UrlImagen = producto.Imagen
+                       }).FirstOrDefault();
+            }
+            else
+            {
+                return null;
+            }
+
         }
     }
 }

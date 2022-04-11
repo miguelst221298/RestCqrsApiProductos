@@ -8,11 +8,11 @@ namespace Aranda.Productos.Datos.Mappings
     {
         public void Configure(EntityTypeBuilder<Categoria> builder)
         {
-            builder.ToTable("Cateogoria");
-            builder.HasKey(x => x.Id_Categoria);
+            builder.ToTable("Categoria");
+            builder.HasKey(x => x.id_Categoria);
 
-            builder.Property(x => x.Id_Categoria).HasColumnName("Id_Categoria");
-            builder.Property(x => x.Nombre).HasColumnName("Nombre");
+            builder.Property(x => x.id_Categoria).HasColumnName("Id_Categoria");
+            builder.Property(x => x.nomCategoria).HasColumnName("Nombre");
 
         }
     }

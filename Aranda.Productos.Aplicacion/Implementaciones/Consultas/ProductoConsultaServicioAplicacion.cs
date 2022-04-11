@@ -6,6 +6,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Aranda.Productos.Aplicacion.Implementaciones.Consultas
 {
@@ -19,11 +20,11 @@ namespace Aranda.Productos.Aplicacion.Implementaciones.Consultas
             _logger = logger;
         }
 
-        public Producto ObtenerProductoPorId(int id)
+        public ProductoDto ObtenerProductoDtoPorId(int id)
         {
             try
             {
-                return _productoConsultaRepositorio.ObtenerPor(x => x.Id_Producto == id).FirstOrDefault();
+                return _productoConsultaRepositorio.ObtenerProductoDtoPorId(id);
             }
             catch (Exception ex)
             {
@@ -32,11 +33,11 @@ namespace Aranda.Productos.Aplicacion.Implementaciones.Consultas
             }
         }
 
-        public ListadoProductosDto ObtenerListadoProductos(FiltrosDto filtros)
+        public async Task<ListadoProductosDto> ObtenerListadoProductos(FiltrosDto filtros, PaginacionDto paginacionDto)
         {
             try
             {
-               return _productoConsultaRepositorio.ObtenerListadoProductos(filtros);
+               return await _productoConsultaRepositorio.ObtenerListadoProductos(filtros,paginacionDto);
             }
             catch (Exception ex)
             {
@@ -56,6 +57,19 @@ namespace Aranda.Productos.Aplicacion.Implementaciones.Consultas
             {
                 _logger.LogError(ex.Message);
                 return false;
+            }
+        }
+
+        public Producto ObtenerProductoPorId(int id)
+        {
+            try
+            {
+                return _productoConsultaRepositorio.ObtenerPor(x => x.Id_Producto == id).FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return null;
             }
         }
     }

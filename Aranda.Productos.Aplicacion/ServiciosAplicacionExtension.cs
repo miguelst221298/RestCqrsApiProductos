@@ -3,6 +3,7 @@ using Aranda.Productos.Aplicacion.Definiciones.Consultas;
 using Aranda.Productos.Aplicacion.Implementaciones.Comandos;
 using Aranda.Productos.Aplicacion.Implementaciones.Consultas;
 using Aranda.Productos.Datos;
+using Aranda.Productos.Utilidades;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Aranda.Productos.Aplicacion
@@ -18,8 +19,9 @@ namespace Aranda.Productos.Aplicacion
 
             //Registrar servicios de consulta
             services.AddTransient<IProductoConsultaServicioAplicacion, ProductoConsultaServicioAplicacion>();
+            services.AddTransient<ICategoriaConsultaServicioAplicacion, CategoriaConsultaServicioAplicacion>();
 
-
+            services.RegistarUtilidades();
             services.RegistrarRepositorios();
             return services;
         }

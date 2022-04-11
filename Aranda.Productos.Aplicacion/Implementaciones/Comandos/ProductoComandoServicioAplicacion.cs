@@ -1,9 +1,12 @@
 ﻿using Aranda.Productos.Aplicacion.Definiciones.Comandos;
 using Aranda.Productos.Datos.Definiciones.Comandos;
 using Aranda.Productos.Datos.Definiciones.Consultas;
+using Aranda.Productos.Dominio.Dto;
 using Aranda.Productos.Dominio.Entidades;
+using Aranda.Productos.Utilidades;
 using Microsoft.Extensions.Logging;
 using System;
+using System.Threading.Tasks;
 
 namespace Aranda.Productos.Aplicacion.Implementaciones.Comandos
 {
@@ -11,16 +14,28 @@ namespace Aranda.Productos.Aplicacion.Implementaciones.Comandos
     {
         private readonly ILogger _logger;
         private readonly IProductoComandoRepositorio _productoComandoRepositorio;
-        public ProductoComandoServicioAplicacion(ILogger<ProductoComandoServicioAplicacion> logger, IProductoComandoRepositorio productoComandoRepositorio)
+        private readonly IAlmacenadorAzureStorage _almacenadorAzureStorage;
+        private readonly string _contenedorImagenes = "productos";
+        public ProductoComandoServicioAplicacion(ILogger<ProductoComandoServicioAplicacion> logger, IProductoComandoRepositorio productoComandoRepositorio,
+            IAlmacenadorAzureStorage almacenadorAzureStorage)
         {
             _logger = logger;
             _productoComandoRepositorio = productoComandoRepositorio;
+            _almacenadorAzureStorage = almacenadorAzureStorage;
         }
 
-        public bool ActualizarProducto(Producto producto)
+
+        public async Task<bool> ActualizarProducto(ProductoDto productoEditar, Producto producto)
         {
             try
             {
+                producto.Descripcion = productoEditar.Descripcion;
+                producto.NomProducto= productoEditar.NomProducto;
+                producto.CodCategoria = productoEditar.CodCategoria;
+
+                if(productoEditar.Imagen!=null)
+                    producto.Imagen= await _almacenadorAzureStorage.EditarArchivo(_contenedorImagenes, productoEditar.Imagen, producto.Imagen);
+
                 _productoComandoRepositorio.Actualizar(producto);
                 return true;
             }
@@ -31,13 +46,25 @@ namespace Aranda.Productos.Aplicacion.Implementaciones.Comandos
             }
         }
 
-        public bool CrearProducto(Producto producto)
+        public async Task<bool> CrearProducto(ProductoDto productoDto)
         {
             try
             {
-                producto.Id_Producto = 0;
+                var producto = new Producto
+                {
+                    Id_Producto = 0,
+                    NomProducto = productoDto.NomProducto,
+                    Descripcion = productoDto.Descripcion,
+                    CodCategoria = productoDto.CodCategoria
+                };
 
-                _productoComandoRepositorio.Actualizar(producto);
+
+                if (productoDto.Imagen != null)
+                {
+                    producto.Imagen= await _almacenadorAzureStorage.GuardarArchivo(_contenedorImagenes,productoDto.Imagen);
+                }
+
+                _productoComandoRepositorio.Crear(producto);
                 return true;
             }
             catch (Exception ex)

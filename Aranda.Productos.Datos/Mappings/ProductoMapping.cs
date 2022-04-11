@@ -13,7 +13,7 @@ namespace Aranda.Productos.Datos.Mappings
             builder.HasKey(x => x.Id_Producto);
 
             builder.Property(x => x.Id_Producto).HasColumnName("Id_Producto");
-            builder.Property(x => x.Nombre).HasColumnName("Nombre");
+            builder.Property(x => x.NomProducto).HasColumnName("Nombre");
             builder.Property(x => x.Descripcion).HasColumnName("Descripcion");
             builder.Property(x => x.CodCategoria).HasColumnName("CodCategoria");
             builder.Property(x => x.Imagen).HasColumnName("Imagen");

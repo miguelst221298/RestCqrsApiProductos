@@ -1,4 +1,5 @@
 using Aranda.Productos.Aplicacion;
+using Aranda.Productos.Utilidades;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -20,12 +21,13 @@ namespace Aranda.Productos.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors(options =>
-            options.AddPolicy(name: "AllowAllOrigins", builder =>
-             {
-                 builder.AllowAnyOrigin();
-                 builder.AllowAnyMethod();
-                 builder.AllowAnyHeader();
-             }));
+            {
+                var fontendUrl = Configuration.GetValue<string>("frontend-url");
+                options.AddDefaultPolicy( builder =>
+                 {
+                     builder.WithOrigins(fontendUrl).AllowAnyMethod().AllowAnyHeader().WithExposedHeaders( new string[] { "TotalRegistros" });
+                 });
+             }); 
 
             services.AddControllers();
             services.AddSwaggerGen();
@@ -48,7 +50,11 @@ namespace Aranda.Productos.Api
 
             app.UseHttpsRedirection();
 
+            app.UseStaticFiles();
+
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseAuthorization();
 

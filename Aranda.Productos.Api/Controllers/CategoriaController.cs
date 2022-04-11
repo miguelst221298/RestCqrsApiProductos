@@ -4,6 +4,7 @@ using Aranda.Productos.Dominio.Entidades;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Aranda.Productos.Api.Controllers
@@ -23,15 +24,28 @@ namespace Aranda.Productos.Api.Controllers
             _categoriaConsultaServicioAplicacion = categoriaCpnsultaServicioAplicacion;
         }
 
-
-        [HttpPost]
-        [Route("Crear")]
-        public async Task<ActionResult<bool>> Crear([FromBody] Categoria categoria)
+        [HttpGet]
+        public async Task<ActionResult<List<Categoria>>> Get()
         {
             try
             {
-                if (_categoriaConsultaServicioAplicacion.VerificarExistenciaPorNombre(categoria.Nombre))
-                    return BadRequest($"Ya existe una categoria llamada {categoria.Nombre}");
+                return Ok(await Task.Run(() => _categoriaConsultaServicioAplicacion.ObtenerTodo()));
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                return BadRequest(ex.Message);
+            }
+        }
+
+
+        [HttpPost]
+        public async Task<ActionResult<bool>> Post([FromBody] Categoria categoria)
+        {
+            try
+            {
+                if (_categoriaConsultaServicioAplicacion.VerificarExistenciaPorNombre(categoria.nomCategoria))
+                    return BadRequest($"Ya existe una categoria llamada {categoria.nomCategoria}");
 
                 return Ok(await Task.Run(() => _categoriaComandoServicioAplicacion.CrearCategoria(categoria)));
             }

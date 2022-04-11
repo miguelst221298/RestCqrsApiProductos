@@ -20,24 +20,27 @@ namespace Aranda.Productos.Api.Controllers
             _logger = logger;
             _productoConsultaServicioAplicacion = productoConsultaServicioAplicacion;
         }
-        //Pasar esto al ListadoProductosController
+        
         [HttpPost]
         [Route("ObtenerListadoProductos")]
-        public async Task<ActionResult<ListadoProductosDto>> ObtenerListadoProductos([FromBody] FiltrosDto filtros)
+        public async Task<ActionResult<ListadoProductosDto>> ObtenerListadoProductos([FromBody] FiltrosDto filtros, [FromQuery]  PaginacionDto paginacionDto)
         {
             try
             {
-                return Ok(await Task.Run(() => _productoConsultaServicioAplicacion.ObtenerListadoProductos(filtros)));
+                var resultado = await Task.Run(() => _productoConsultaServicioAplicacion.ObtenerListadoProductos(filtros,paginacionDto));
+                Response.Headers.Add("TotalRegistros", resultado.TotalRegistros.ToString());
+                return Ok(resultado.Listado);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex.Message);
                 return BadRequest(new ListadoProductosDto
                 {
-                    CantidadRegistros = 0,
+                    TotalRegistros = 0,
                     Listado = new List<ProductoDto>()
                 });
             }
         }
+        
     }
 }

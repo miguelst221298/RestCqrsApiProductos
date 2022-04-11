@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aranda.Productos.Api", "Aranda.Productos.Api\Aranda.Productos.Api.csproj", "{D28B0D8B-1DB7-4503-B094-4FEF4D1E06CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aranda.Productos.Api", "Aranda.Productos.Api\Aranda.Productos.Api.csproj", "{D28B0D8B-1DB7-4503-B094-4FEF4D1E06CC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{55852182-5FEC-4E57-A360-D3722945F02A}"
 EndProject
@@ -13,11 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datos", "Datos", "{D1ADC36B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{7F8035FD-7580-44D5-B771-6D56C14E1EB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aranda.Productos.Dominio", "Aranda.Productos.Dominio\Aranda.Productos.Dominio.csproj", "{A22E6A7E-6D2E-43E6-8A35-54A8453C27FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aranda.Productos.Dominio", "Aranda.Productos.Dominio\Aranda.Productos.Dominio.csproj", "{A22E6A7E-6D2E-43E6-8A35-54A8453C27FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aranda.Productos.Datos", "Aranda.Productos.Datos\Aranda.Productos.Datos.csproj", "{F02A4D91-D569-4528-816A-BCD22EE4CF82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aranda.Productos.Datos", "Aranda.Productos.Datos\Aranda.Productos.Datos.csproj", "{F02A4D91-D569-4528-816A-BCD22EE4CF82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aranda.Productos.Aplicacion", "Aranda.Productos.Aplicacion\Aranda.Productos.Aplicacion.csproj", "{4019826F-B642-405A-95DE-EDDA30208284}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aranda.Productos.Aplicacion", "Aranda.Productos.Aplicacion\Aranda.Productos.Aplicacion.csproj", "{4019826F-B642-405A-95DE-EDDA30208284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aranda.Productos.Utilidades", "Aranda.Productos.Utilidades\Aranda.Productos.Utilidades.csproj", "{7408D8DC-FB86-461A-8286-CEFCCC53CDA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilidades", "Utilidades", "{5492849C-5B35-490D-BC95-F6A41A94C5D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{4019826F-B642-405A-95DE-EDDA30208284}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4019826F-B642-405A-95DE-EDDA30208284}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4019826F-B642-405A-95DE-EDDA30208284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7408D8DC-FB86-461A-8286-CEFCCC53CDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7408D8DC-FB86-461A-8286-CEFCCC53CDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7408D8DC-FB86-461A-8286-CEFCCC53CDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7408D8DC-FB86-461A-8286-CEFCCC53CDA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{A22E6A7E-6D2E-43E6-8A35-54A8453C27FD} = {7F8035FD-7580-44D5-B771-6D56C14E1EB3}
 		{F02A4D91-D569-4528-816A-BCD22EE4CF82} = {D1ADC36B-DEAC-4523-AFD1-5A88EDE3764A}
 		{4019826F-B642-405A-95DE-EDDA30208284} = {1E940364-0EF9-45EC-8E59-81DFC860C7A5}
+		{7408D8DC-FB86-461A-8286-CEFCCC53CDA4} = {5492849C-5B35-490D-BC95-F6A41A94C5D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {905696D5-993F-4EA8-9E35-8285883D9BEA}

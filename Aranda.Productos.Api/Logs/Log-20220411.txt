@@ -1,0 +1,154 @@
+2022-04-11T00:37:43.6259673-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T00:37:43.6321381-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T00:37:43.6340700-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T00:53:28.1597651-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T00:53:28.1759373-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T00:53:28.1774530-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T00:53:29.0134684-05:00 80000004-0002-fc00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+Microsoft.AspNetCore.Connections.ConnectionResetException: The client has disconnected
+ ---> System.Runtime.InteropServices.COMException (0x800704CD): Se ha intentado una operación en una conexión de red inexistente. (0x800704CD)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.IIS.Core.IO.AsyncIOOperation.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ReadBody()
+   at System.IO.Pipelines.PipeCompletion.ThrowLatchedException()
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.ReadAsync(CancellationToken token)
+   at System.IO.Pipelines.Pipe.DefaultPipeReader.ReadAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ReadAsync(Memory`1 memory, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.IIS.Core.HttpRequestStream.ReadAsyncInternal(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.ReadAsync[TValue](Stream utf8Json, Type returnType, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-11T01:05:38.1254705-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T01:05:38.1299004-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T01:05:38.1311518-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T01:55:58.7962753-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T01:55:58.8015558-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T01:55:58.8030696-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T01:57:10.5683299-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T01:57:10.5740202-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T01:57:10.5758507-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T02:01:17.9664976-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T02:01:17.9717530-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T02:01:17.9733988-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T02:11:56.2780079-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T02:11:56.2848227-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T02:11:56.2861612-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T02:22:49.0681582-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T02:22:49.0730781-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T02:22:49.0743112-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T02:32:25.1283920-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T02:32:25.1592099-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T02:32:25.1615194-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T03:16:00.5227798-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T03:16:00.5288400-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T03:16:00.5308061-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T03:20:51.6383641-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T03:20:51.6439032-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T03:20:51.6453265-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T03:26:27.8519228-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T03:26:27.8563708-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T03:26:27.8575157-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T03:27:51.0410667-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T03:27:51.0551035-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T03:27:51.0578522-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T03:33:10.9704244-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T03:33:10.9754996-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T03:33:10.9767722-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T03:41:08.0133084-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T03:41:08.0173600-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T03:41:08.0174715-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T03:51:02.7292799-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T03:51:02.7364959-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T03:51:02.7382049-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T04:25:47.0498161-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T04:25:47.0538219-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T04:25:47.0539549-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T04:39:40.4363731-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T04:39:40.4414549-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T04:39:40.4429366-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T04:44:42.9621800-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T04:44:42.9668683-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T04:44:42.9682285-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T04:50:12.7593546-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T04:50:12.7650166-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T04:50:12.7666747-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T04:51:11.3159637-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T04:51:11.3232271-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T04:51:11.3250914-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T04:58:45.8658166-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T04:58:45.8701220-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T04:58:45.8702429-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)
+2022-04-11T04:58:46.4538455-05:00 80001226-0007-fd00-b63f-84710c7967bb [ERR] The LINQ expression 'DbSet<Producto>
+    .Join(
+        outer: DbSet<Categoria>, 
+        inner: p => p.CodCategoria, 
+        outerKeySelector: c => c.id_Categoria, 
+        innerKeySelector: (p, c) => new TransparentIdentifier<Producto, Categoria>(
+            Outer = p, 
+            Inner = c
+        ))
+    .Where(ti => new ProductoDto{ 
+        Id_Producto = ti.Outer.Id_Producto, 
+        NomProducto = ti.Outer.NomProducto, 
+        NomCategoria = ti.Inner.nomCategoria 
+    }
+    .CodCategoria == __filtros_CodCategoria_0)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information. (a4ff91be)
+2022-04-11T04:58:50.3659672-05:00 80001228-0007-fd00-b63f-84710c7967bb [ERR] The LINQ expression 'DbSet<Producto>
+    .Join(
+        outer: DbSet<Categoria>, 
+        inner: p => p.CodCategoria, 
+        outerKeySelector: c => c.id_Categoria, 
+        innerKeySelector: (p, c) => new TransparentIdentifier<Producto, Categoria>(
+            Outer = p, 
+            Inner = c
+        ))
+    .Where(ti => new ProductoDto{ 
+        Id_Producto = ti.Outer.Id_Producto, 
+        NomProducto = ti.Outer.NomProducto, 
+        NomCategoria = ti.Inner.nomCategoria 
+    }
+    .CodCategoria == __filtros_CodCategoria_0)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information. (a4ff91be)
+2022-04-11T04:58:52.8981090-05:00 80005238-0000-f900-b63f-84710c7967bb [ERR] The LINQ expression 'DbSet<Producto>
+    .Join(
+        outer: DbSet<Categoria>, 
+        inner: p => p.CodCategoria, 
+        outerKeySelector: c => c.id_Categoria, 
+        innerKeySelector: (p, c) => new TransparentIdentifier<Producto, Categoria>(
+            Outer = p, 
+            Inner = c
+        ))
+    .Where(ti => new ProductoDto{ 
+        Id_Producto = ti.Outer.Id_Producto, 
+        NomProducto = ti.Outer.NomProducto, 
+        NomCategoria = ti.Inner.nomCategoria 
+    }
+    .CodCategoria == __filtros_CodCategoria_0)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information. (a4ff91be)
+2022-04-11T04:59:18.6782834-05:00 8000122a-0007-fd00-b63f-84710c7967bb [ERR] The LINQ expression 'DbSet<Producto>
+    .Join(
+        outer: DbSet<Categoria>, 
+        inner: p => p.CodCategoria, 
+        outerKeySelector: c => c.id_Categoria, 
+        innerKeySelector: (p, c) => new TransparentIdentifier<Producto, Categoria>(
+            Outer = p, 
+            Inner = c
+        ))
+    .Where(ti => new ProductoDto{ 
+        Id_Producto = ti.Outer.Id_Producto, 
+        NomProducto = ti.Outer.NomProducto, 
+        NomCategoria = ti.Inner.nomCategoria 
+    }
+    .CodCategoria == __filtros_CodCategoria_0)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information. (a4ff91be)
+2022-04-11T05:02:10.1143270-05:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-04-11T05:02:10.1192049-05:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-04-11T05:02:10.1204826-05:00  [INF] Content root path: "C:\Users\Miguel\source\repos\Aranda.Productos.Api\Aranda.Productos.Api" (b5d60022)

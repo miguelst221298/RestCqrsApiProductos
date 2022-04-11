@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Aranda.Productos.Datos\Aranda.Productos.Datos.csproj" />
     <ProjectReference Include="..\Aranda.Productos.Dominio\Aranda.Productos.Dominio.csproj" />
+    <ProjectReference Include="..\Aranda.Productos.Utilidades\Aranda.Productos.Utilidades.csproj" />
   </ItemGroup>
 
 </Project>
