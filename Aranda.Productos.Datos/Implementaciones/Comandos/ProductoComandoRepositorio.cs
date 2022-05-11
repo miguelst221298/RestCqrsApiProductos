@@ -2,6 +2,7 @@
 using Aranda.Productos.Datos.Definiciones.Comandos;
 using Aranda.Productos.Dominio.Entidades;
 using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
 
 namespace Aranda.Productos.Datos.Implementaciones.Comandos
 {
@@ -13,5 +14,9 @@ namespace Aranda.Productos.Datos.Implementaciones.Comandos
             _logger = logger;
         }
 
+        public List<Producto> ObtenerInactivos()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

@@ -82,6 +82,11 @@ namespace Aranda.Productos.Datos.Implementaciones.Consultas
             return resultado;
         }
 
+        public List<Producto> ObtenerLosQueEmpiezanConA()
+        {
+            return ObtenerPor(x => x.NomProducto.ToLower().StartsWith("a")).ToList();
+        }
+
         public ProductoDto ObtenerProductoDtoPorId(int id)
         {
             var contexto = _Contexto as IProductosContexto;

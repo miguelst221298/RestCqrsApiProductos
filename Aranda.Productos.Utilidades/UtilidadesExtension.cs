@@ -7,7 +7,6 @@ namespace Aranda.Productos.Utilidades
         public static IServiceCollection RegistarUtilidades(this IServiceCollection services)
         {
             //Aca coloco otra cosa de conflicos
-            //asx
             services.AddTransient<IAlmacenadorAzureStorage, AlmacenadorAzureStorage>();
             return services;
         }
