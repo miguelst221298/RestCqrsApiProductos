@@ -6,7 +6,7 @@ namespace Aranda.Productos.Utilidades
     {
         public static IServiceCollection RegistarUtilidades(this IServiceCollection services)
         {
-
+            //asdasd prueba push
             services.AddTransient<IAlmacenadorAzureStorage, AlmacenadorAzureStorage>();
             return services;
         }
