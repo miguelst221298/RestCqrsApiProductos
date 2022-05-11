@@ -1,5 +1,6 @@
 ﻿using Aranda.Productos.Datos.Contextos;
 using Aranda.Productos.Datos.Definiciones.Consultas;
+using Aranda.Productos.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;

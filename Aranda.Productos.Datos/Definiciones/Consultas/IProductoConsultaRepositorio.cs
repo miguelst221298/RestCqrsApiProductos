@@ -9,5 +9,6 @@ namespace Aranda.Productos.Datos.Definiciones.Consultas
     {
         Task<ListadoProductosDto> ObtenerListadoProductos(FiltrosDto filtros, PaginacionDto paginacionDto);
         ProductoDto ObtenerProductoDtoPorId(int id);
+        List<Producto> ObtenerLosQueEmpiezanConA();
     }
 }
