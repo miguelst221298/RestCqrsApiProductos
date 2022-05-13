@@ -28,7 +28,8 @@ namespace Aranda.Productos.Api
                      builder.WithOrigins(fontendUrl).AllowAnyMethod().AllowAnyHeader().WithExposedHeaders( new string[] { "TotalRegistros" });
                  });
              }); 
-
+            //agrego unas cosas
+            // kjlasd
             services.AddControllers();
             services.AddSwaggerGen();
             services.RegistrarServicios();
