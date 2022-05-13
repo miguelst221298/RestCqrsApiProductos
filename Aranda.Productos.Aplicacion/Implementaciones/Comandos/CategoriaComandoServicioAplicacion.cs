@@ -19,6 +19,7 @@ namespace Aranda.Productos.Aplicacion.Implementaciones.Comandos
         {
             try
             {
+                categoria.nomCategoria = categoria.nomCategoria.Replace("#", "");
                 _repositorio.Crear(categoria);
                 return true;
             }
