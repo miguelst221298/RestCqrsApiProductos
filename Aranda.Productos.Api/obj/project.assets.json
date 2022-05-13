@@ -6672,11 +6672,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
+      "projectUniqueName": "C:\\Git\\EjemploGit\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
       "projectName": "Aranda.Productos.Api",
-      "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
+      "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
       "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Api\\obj\\",
+      "outputPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6693,14 +6693,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj"
+            "C:\\Git\\EjemploGit\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj": {
+              "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj"
             },
-            "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj"
+            "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj": {
+              "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj"
             },
-            "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj": {
-              "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj"
+            "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj": {
+              "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj"
             }
           }
         }
