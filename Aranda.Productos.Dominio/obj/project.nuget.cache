@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1rQNG1+EGlAfUxbwB/dhNyJ6495fxafnsRsmO+x91sW0g8xKC2mMdhXQDv53bIFAmlPsh16thaUvP/A1ntFkCA==",
+  "dgSpecHash": "ApcHnCQ5zQDs927AU6I1D6wMR9y09LdH6NeunzjBb3d0nA09Yy9cvFDiy5MG9+cnXvdSRaV8Nvps3qT5cNAAEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj",
+  "projectFilePath": "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.23\\microsoft.aspnetcore.http.features.3.1.23.nupkg.sha512",
     "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.23\\microsoft.extensions.primitives.3.1.23.nupkg.sha512",
