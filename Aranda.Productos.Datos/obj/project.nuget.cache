@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6xVGI/43iyq2JRTjebALpKTjzgLLTxuKhgNgu4615YYHL1IozeoZAQvrBNqJR2+6GvtdQJ+MyN8r3OuLwA9nUA==",
+  "dgSpecHash": "zuY04IDO2oD3eKLZPbGBzVAqOxd13T9LVc0A0K7c+/KSgrWWOLqpgh/uaSwcPMJktVtU/BoIqlTbeoc4D3dveQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Datos\\Aranda.Productos.Datos.csproj",
+  "projectFilePath": "C:\\Git\\EjemploGit\\Aranda.Productos.Datos\\Aranda.Productos.Datos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.23\\microsoft.aspnetcore.http.features.3.1.23.nupkg.sha512",
     "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

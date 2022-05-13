@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj": {}
+    "C:\\Git\\EjemploGit\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj": {
+    "C:\\Git\\EjemploGit\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
+        "projectUniqueName": "C:\\Git\\EjemploGit\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
         "projectName": "Aranda.Productos.Api",
-        "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
+        "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
         "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Api\\obj\\",
+        "outputPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj": {
-                "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj"
+              "C:\\Git\\EjemploGit\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj": {
+                "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj"
               },
-              "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj"
+              "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj": {
+                "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj"
               },
-              "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj": {
-                "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj"
+              "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj": {
+                "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj": {
+    "C:\\Git\\EjemploGit\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj",
+        "projectUniqueName": "C:\\Git\\EjemploGit\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj",
         "projectName": "Aranda.Productos.Aplicacion",
-        "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj",
+        "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj",
         "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Aplicacion\\obj\\",
+        "outputPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,14 +105,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Datos\\Aranda.Productos.Datos.csproj": {
-                "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Datos\\Aranda.Productos.Datos.csproj"
+              "C:\\Git\\EjemploGit\\Aranda.Productos.Datos\\Aranda.Productos.Datos.csproj": {
+                "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Datos\\Aranda.Productos.Datos.csproj"
               },
-              "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj"
+              "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj": {
+                "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj"
               },
-              "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj": {
-                "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj"
+              "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj": {
+                "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj"
               }
             }
           }
@@ -145,14 +145,14 @@
         }
       }
     },
-    "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Datos\\Aranda.Productos.Datos.csproj": {
+    "C:\\Git\\EjemploGit\\Aranda.Productos.Datos\\Aranda.Productos.Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Datos\\Aranda.Productos.Datos.csproj",
+        "projectUniqueName": "C:\\Git\\EjemploGit\\Aranda.Productos.Datos\\Aranda.Productos.Datos.csproj",
         "projectName": "Aranda.Productos.Datos",
-        "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Datos\\Aranda.Productos.Datos.csproj",
+        "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Datos\\Aranda.Productos.Datos.csproj",
         "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Datos\\obj\\",
+        "outputPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Datos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -169,8 +169,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj"
+              "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj": {
+                "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj"
               }
             }
           }
@@ -217,14 +217,14 @@
         }
       }
     },
-    "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj": {
+    "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj",
+        "projectUniqueName": "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj",
         "projectName": "Aranda.Productos.Dominio",
-        "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj",
+        "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj",
         "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Dominio\\obj\\",
+        "outputPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -277,14 +277,14 @@
         }
       }
     },
-    "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj": {
+    "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj",
+        "projectUniqueName": "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj",
         "projectName": "Aranda.Productos.Utilidades",
-        "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj",
+        "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj",
         "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\obj\\",
+        "outputPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
