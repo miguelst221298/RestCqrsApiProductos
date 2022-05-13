@@ -637,11 +637,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj",
+      "projectUniqueName": "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj",
       "projectName": "Aranda.Productos.Utilidades",
-      "projectPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj",
+      "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj",
       "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Utilidades\\obj\\",
+      "outputPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",

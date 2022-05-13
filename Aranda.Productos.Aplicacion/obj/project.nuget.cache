@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4WdTyyHI4KRpAXBxeXIP3chUo88vAmIhv4iidtjZ9mcHBcWIXufuvYyIg4En5yrQY745LTbTTwqFQ+/05NuTbw==",
+  "dgSpecHash": "RIrvAQqNByPKHnGHxLMHbb77g0KS+yZXkVdLfnjR034b+cZbdByyTrGKUxvRdHqykUq0w3lzDexQ1uiibCwI+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Miguel\\source\\repos\\Aranda.Productos.Api\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj",
+  "projectFilePath": "C:\\Git\\EjemploGit\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Miguel\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\Miguel\\.nuget\\packages\\azure.storage.blobs\\12.11.0\\azure.storage.blobs.12.11.0.nupkg.sha512",
