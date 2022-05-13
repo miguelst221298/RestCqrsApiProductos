@@ -10,7 +10,7 @@ namespace Aranda.Productos.Datos
 {
     public static class DatosExtension
     {
-        private const string _CadenaDeConexion = "Data Source=localhost;Initial Catalog=Productos;Persist Security Info=True;User ID=sa;Password=root;";
+        private const string _CadenaDeConexion = "Data Source=localhost;Initial Catalog=ProductosGit;Persist Security Info=True;User ID=sa;Password=root;";
         public static IServiceCollection RegistrarRepositorios(this IServiceCollection services)
         {
             //Registrar repositorios de comando
