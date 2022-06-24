@@ -6672,11 +6672,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\EjemploGit\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
+      "projectUniqueName": "C:\\Git\\ApiProductos\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
       "projectName": "Aranda.Productos.Api",
-      "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
+      "projectPath": "C:\\Git\\ApiProductos\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
       "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Api\\obj\\",
+      "outputPath": "C:\\Git\\ApiProductos\\Aranda.Productos.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6687,20 +6687,22 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://tfs.arandasoft.com:8081/tfs/ArandaArtifacts/_packaging/external/nuget/v3/index.json": {},
+        "https://tfs.arandasoft.com:8081/tfs/ArandaArtifacts/_packaging/release/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Git\\EjemploGit\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj": {
-              "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj"
+            "C:\\Git\\ApiProductos\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj": {
+              "projectPath": "C:\\Git\\ApiProductos\\Aranda.Productos.Aplicacion\\Aranda.Productos.Aplicacion.csproj"
             },
-            "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj": {
-              "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj"
+            "C:\\Git\\ApiProductos\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj": {
+              "projectPath": "C:\\Git\\ApiProductos\\Aranda.Productos.Dominio\\Aranda.Productos.Dominio.csproj"
             },
-            "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj": {
-              "projectPath": "C:\\Git\\EjemploGit\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj"
+            "C:\\Git\\ApiProductos\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj": {
+              "projectPath": "C:\\Git\\ApiProductos\\Aranda.Productos.Utilidades\\Aranda.Productos.Utilidades.csproj"
             }
           }
         }
@@ -6734,6 +6736,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.25, 3.1.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

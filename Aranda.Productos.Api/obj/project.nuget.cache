@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ecoRu7xFEz3EWsZu+fvpg6CVsx0SwCWb26oZcDbv6dsEuiwCTGHqPdx+GOxvqiSPb8VtxVNRcAlafV7fnE1l2Q==",
+  "dgSpecHash": "TclrkFldHKKvGvkCiivukYyDNUp6Cty6nHr+Z/rwqRfuYrZt/WqfS6Dzu2gT278nfKXxyXLhPpKWxiveMPGbgA==",
   "success": true,
-  "projectFilePath": "C:\\Git\\EjemploGit\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
+  "projectFilePath": "C:\\Git\\ApiProductos\\Aranda.Productos.Api\\Aranda.Productos.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Miguel\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\Miguel\\.nuget\\packages\\azure.storage.blobs\\12.11.0\\azure.storage.blobs.12.11.0.nupkg.sha512",
@@ -127,7 +127,8 @@
     "C:\\Users\\Miguel\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Miguel\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Miguel\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Miguel\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Miguel\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Miguel\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
   "logs": []
 }
